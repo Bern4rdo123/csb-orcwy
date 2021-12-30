@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+html {
+  font-size: 12pt;
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+.busca {
+  background-color: #58f1ff;
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.busca input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  width: 50vw;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.busca button {
+  font-size: 1.5rem;
+  margin: none;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#menu-principal {
+  height: 10vh;
+  min-height: 40px;
+  margin: 0px;
+  box-shadow: -3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #8ce7f0;
+  display: flex;
+  justify-content: center;
+}
+
+#menu-principal a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  top: 30%;
+  font-size: 1.1rem;
+}
+
+.menu-item {
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: background-color 1s;
+  border-radius: 0px 0px 3px 3px;
+}
+
+.menu-item:hover {
+  background-color: #fff;
+  color: #58f1ff;
+  border-radius: 0px 0px 3px 3px;
+  font-weight: bold;
+  border-bottom: 3px solid #aaf0f7;
+}
+
+main {
+  margin: 2%;
+  min-height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.banner {
+  flex: 100%;
+}
+.item-vitrine img {
+  display: block;
+  margin: auto;
+}
+
+.item-vitrine h2 {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.item-preco {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.preco-antigo {
+  text-decoration: line-through;
+  font-size: 0.8rem;
+}
+
+.item-descricao {
+  font-size: 0.8rem;
+  margin: 8px;
+  text-align: center;
+}
+
+.cabecalho-principal {
+  position: sticky;
+  top: 0;
+}
+
+.item-vitrine button {
+  background-color: #aaf0f7;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #008591;
+  cursor: grab;
+  display: block;
+  margin: auto;
+}
+
+.item-vitrine {
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.5);
+  background-color: #f2f2f2;
+  min-width: 100px;
+  width: 20vw;
+  min-height: 20vh;
+  margin: 10px;
+  box-sizing: border-box;
+  color: black;
+  padding: 10px;
+}
+
+#rodape-principal {
+  background-color: #aaf0f7;
+  height: 20vh;
+}
+.indicador-promocao {
+  width: 100%;
+  top: 30px;
+}
+.button {
+  color: #aaf0f7;
+}
+.rodope {
+  background-color: #aaf0f7;
+  height: 20vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
